@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:consulta_adop"
         mc:Ignorable="d"
         Title="MainWindow" Height="1000" Width="800" Loaded="Form_Loaded">
-    <Grid x:Name="btbuscar_m" Background="#FFCDC776" RenderTransformOrigin="0.501,0.561" MinWidth="4" Margin="10,10,2,36">
+    <Grid x:Name="btbuscar_m" Background="#FFCDC776" RenderTransformOrigin="0.501,0.561" MinWidth="4" Margin="10,10,2,36" Width="800" Height="800">
         <DataGrid ItemsSource="{Binding}"  x:Name="grid1" HorizontalAlignment="Left" Height="249" Margin="10,302.836,0,0" VerticalAlignment="Top" Width="748.55"/>
         <Button x:Name="btnmacota" Content="Buscar" HorizontalAlignment="Left" Height="38.836" Margin="291.222,242.742,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.421,0.436" Click="Button_Click" FontSize="20"/>
         <Label Content="Nombre del Cuidador :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41.45,170.73,0,0" FontFamily="Segoe UI" RenderTransformOrigin="0.147,-0.092" FontSize="18"/>
